@@ -5,11 +5,7 @@
   "author": "Nerd",
   "default_locale": "en",
   "description": "__MSG_extensionDescription__",
-  "applications": {
-    "gecko": {
-       "id": "test@test.com"
-    }
- },
+
   "icons": {
     "48": "yt48.webp"
   },
