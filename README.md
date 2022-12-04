@@ -2,7 +2,7 @@
 
 This is a fork of [**SearXNG-Web-Exstension**](https://github.com/LoserFox/SearXNG-Web-Exstension) and adds an INVIDIOUS instance as a custom search engine.
 
-[**INVIDIOUS**](https://github.com/iv-org/invidious)is a degoogled youtube search engine.
+[**INVIDIOUS**](https://github.com/iv-org/invidious) is a degoogled youtube search engine.
 
 # How does it work?
 Extension use `manifest.json` settings which change your main search engine.
