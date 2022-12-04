@@ -1,9 +1,8 @@
-# SearXNG-Web-Exstension (Unofficial)
-**SearXNG** is a free Internet metasearch engine that aggregates results from various search services and databases. Users are not tracked or profiled.
+# INVIDIOUS Web search extension (Unofficial)
 
-[**SearXNG**](https://github.com/searxng/searxng) is a fork of [**SearX**](https://github.com/searx/searx).
+This is a fork of [**SearXNG-Web-Exstension**](https://github.com/LoserFox/SearXNG-Web-Exstension) and adds an INVIDIOUS instance as a custom search engine.
 
-[**Original SearXNG repository on GitHub**](https://github.com/searxng/searxng)
+[**INVIDIOUS**](https://github.com/iv-org/invidious)is a degoogled youtube search engine.
 
 # How does it work?
 Extension use `manifest.json` settings which change your main search engine.
@@ -26,21 +25,16 @@ Example:
 {
   "chrome_settings_overrides": {
     "search_provider": {
-      "search_url": "https://searx.be/search?q={searchTerms}"
+      "search_url": "https://invidious.snopyta.org/search?q=test={searchTerms}"
     }
   }
 }
 ```
 
-It means that your browser starts to use second link when you make search request.
+# Future Plans that will probably never happen
+- the ability to click on the icon and pick an instance of INVIDIOUS
+- automatically pick an instance that is running well from [**Here**](https://docs.invidious.io/instances/)
 
-# Tricks
-If you want use **SearXNG** as support to main search engine do this:
-- add this addon into your browser
-- agree when browser shows you "Add this extension?"
-- disagree when browser shows "Do you want change your main search engine?"
-- use keywords like `@searxng, @searx, @sx` if you want use **SearXNG** when you make request
 
 # Contributors
-[**Rodion Borisov**](https://github.com/vintprox) - found `"suggestion_url"` and etc.  
-[**Ivan Muzyka**](https://github.com/SeryiBaran) - found icons and etc.
+[**Loser Fox**](https://github.com/LoserFoxx) - where I forked the original code from. 
